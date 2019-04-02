@@ -1,8 +1,13 @@
-import Vue from 'vue';
-import App from './App.vue';
+import { defineCustomElements as defineGravatarWc } from "gravatar-wc/dist/loader";
+import vue from "vue";
 
-Vue.config.productionTip = false;
+import AppVue from "./App.vue";
 
-new Vue({
-  render: (h) => h(App),
-}).$mount('#app');
+defineGravatarWc(window);
+
+vue.config.productionTip = false;
+vue.config.ignoredElements = ["gravatar-wc"];
+
+new vue({
+  render: h => h(AppVue),
+}).$mount("#app");

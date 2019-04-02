@@ -8,7 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
+    "gravatar-wc": "0.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
     "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^8.0.0"
@@ -17,6 +22,12 @@
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-typescript": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.4",
+    "prettier-tslint": "^0.4.2",
+    "sass-loader": "^7.1.0",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.2.1",
     "vue-template-compiler": "^2.5.21"
   }
