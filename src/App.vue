@@ -3,7 +3,8 @@
     <div style="background: #0a76b7; color: white" class="sticky-top py-1">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 style="font-family: Montserrat" class="d-flex align-items-center m-0">
-          <img src="@/assets/logo.svg" alt="logo" width="64" class="mr-2" style="opacity: .85"> gravatar-wc
+          <img src="@/assets/logo.svg" alt="logo" width="64" class="mr-2" style="opacity: .85">
+          <div class="d-none d-sm-block">gravatar-wc</div>
         </h1>
         <div title="Gravatar Web Component">
           <gravatar-wc
