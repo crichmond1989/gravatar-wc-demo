@@ -22,7 +22,7 @@
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-typescript": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "prettier": "^1.16.4",
     "prettier-tslint": "^0.4.2",
     "sass-loader": "^7.1.0",
